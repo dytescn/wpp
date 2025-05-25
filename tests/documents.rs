@@ -1,7 +1,7 @@
 
 #[cfg(test)]
 mod tests {
-    use wpssdk::ffi::document;
+    use wpp::ffi::document;
     #[test]
     fn it_works() {
         // do_quit();

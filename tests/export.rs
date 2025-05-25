@@ -1,9 +1,9 @@
 #[cfg(test)]
 mod tests {
-    use wpssdk::ffi::export_cover::wpp_export_cover;
-    use wpssdk::ffi::export_preview::wpp_export_preview_sum;
-    use wpssdk::ffi::export_preview::wpp_export_preview;
-    use wpssdk::ffi::export_file::export_file;
+    use wpp::ffi::export_cover::wpp_export_cover;
+    use wpp::ffi::export_preview::wpp_export_preview_sum;
+    use wpp::ffi::export_preview::wpp_export_preview;
+    use wpp::ffi::export_file::export_file;
     #[test]
     fn do_export_cover() {
         let src_path: &str = "C:\\Users\\Lenovo\\Desktop\\imgcache\\222.png";

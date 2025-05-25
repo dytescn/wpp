@@ -1,8 +1,8 @@
 
 #[cfg(test)]
 mod tests {
-    use wpssdk::ffi::app;
-    use wpssdk::ffi::info;
+    use wpp::ffi::app;
+    use wpp::ffi::info;
     #[test]
     fn it_works_doapp() {
         // do_quit();
